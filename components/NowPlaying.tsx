@@ -131,7 +131,8 @@ export const Player: React.FC<Props> = ({
           display: "flex",
           alignItems: "center",
           padding: '8px',
-          backgroundColor:'rgba(255,255,255,0.5)',
+          backgroundColor:'rgba(255,255,255,0.35)',
+          borderRadius: '2px'
         }}
       >
         <img id="cover" src={cover ?? null} width="48" height="48" />
