@@ -131,7 +131,7 @@ export const Player: React.FC<Props> = ({
           display: "flex",
           alignItems: "center",
           padding: '8px',
-          backgroundColor:'rgba(255,255,255,0.35)',
+          backgroundColor:'rgb(34, 39, 46, 0.5)',
           borderRadius: '2px'
         }}
       >
@@ -148,7 +148,7 @@ export const Player: React.FC<Props> = ({
           <Text id="track" weight="bold">
             {`${track ?? ""} `.trim()}
           </Text>
-          <Text id="artist" color={!track ? "gray" : undefined}>
+          <Text id="artist" color={!track ? "white" : undefined}>
             {artist || "Nothing playing..."}
           </Text>
           {track && (
